@@ -1,6 +1,6 @@
 // import models
+const Category = require('./Category'); // wow, tricky - there was a mistake in the starter code from calling Product before Category
 const Product = require('./Product');
-const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
